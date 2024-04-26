@@ -1,0 +1,50 @@
+.contact-container{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.contact-content h2{
+    color: #2e9683;
+}
+.contact-content h3{
+    padding: 20px 0;
+}
+.contact-detail{
+    display: flex;
+    flex-direction: row;
+}
+.location , .mail{
+    display: flex;
+}
+.location{
+    padding-right: 30px;
+}
+.contact-col img{
+    width: 40px;
+}
+.contact-col{
+    padding-right: 10px;
+}
+.contact-col a{
+    font-size: 14px;
+}
+/* Media query */
+@media (max-width:620px){
+    .contact-col h3{
+        font-size: 18px;
+    }
+    .contact-col a{
+        font-size: 13px;
+    }
+    .contact-col p{
+        font-size: 13px;
+    }
+}
+@media (max-width:450px){
+    .contact-detail{
+        flex-direction: column;
+    }   
+    .mail{
+        padding-top: 10px;
+    }
+}
