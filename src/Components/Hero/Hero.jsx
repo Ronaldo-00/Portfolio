@@ -3,7 +3,7 @@ import {useTypewriter, Cursor} from 'react-simple-typewriter'
 import './Hero.css' // css file
 import linkedin from "../../Assets/icons/linkedin.png"
 import github from "../../Assets/icons/github.png"
-// import profile from "../../Assets/profile.png"
+import profile from "../../Assets/Profile2.gif"
 //images for tech
 import html from "../../Assets/icons/html.png"
 import css from "../../Assets/icons/css-3.png"
@@ -30,9 +30,9 @@ const Hero = () => {
                 <a href='https://www.figma.com/@ronaldo11' target="blank"><img src={figma} alt='figma'></img></a>
             </div>
         </div>
-        {/* <div className="container-right">
+        <div className="container-right">
             <img src={profile} alt='profile-img'></img>
-        </div> */}
+        </div> 
       </div>
       <div className="tech-stack">
         <div className="tech-heading">
