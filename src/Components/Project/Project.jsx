@@ -1,11 +1,12 @@
 import React from 'react'
 import './Project.css'
 import project_1 from "../../Assets/project-img/img1.jpg"
-import project_2 from "../../Assets/project-img/img2.jpg"
-import project_3 from "../../Assets/project-img/img4.jpg"
-import project_4 from "../../Assets/project-img/img5.png"
-import project_5 from "../../Assets/project-img/img7.png"
-import project_6 from "../../Assets/project-img/img6.jpg"
+import project_2 from "../../Assets/project-img/img8.png"
+import project_3 from "../../Assets/project-img/img2.jpg"
+import project_4 from "../../Assets/project-img/img4.jpg"
+import project_5 from "../../Assets/project-img/img5.png"
+import project_6 from "../../Assets/project-img/img7.png"
+import project_7 from "../../Assets/project-img/img6.jpg"
 import github from "../../Assets/icons/github.png"
 import link from "../../Assets/icons/link.png"
 //images for tech
@@ -67,6 +68,40 @@ const Project = () => {
                     </div>
                     <div className="project-col-2 order-left">
                         <div className="pro-head">
+                            <h2>Careers-web-page</h2>
+                        </div>
+                        <div className="pro-detail">
+                            <p>
+                                A React-based application showcasing job listings with filterable
+                                and expandable job details, including a responsive design and navigation.
+                                This application is designed to provide an interactive and informative career section.
+                            </p>
+                        </div>
+                        <div className="tech-img">
+                            <img src={html} alt="html"></img>
+                            <img src={css} alt='css'></img>
+                            <img src={js} alt='js'></img>
+                            <img src={figma} alt='figma'></img>
+                        </div>
+                        <div className="coding-div">
+                            <div className="code">
+                                <img src={github} alt='github'></img>
+                                <h4><a href='https://github.com/Ronaldo-00/careers-page' target='blank'>Github</a></h4>
+                            </div>
+                            <div className="link">
+                                <img src={link} alt='link'></img>
+                                <h4><a href=' https://ronaldo-00.github.io/careers-page/' target='blank'>Live Demo</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* Project 3 */}
+                <div className="project-row">
+                    <div className="project-col-1 ">
+                        <img className='project-img' src={project_3} alt='project'></img>
+                    </div>
+                    <div className="project-col-2 order-left">
+                        <div className="pro-head">
                             <h2>Dental care web</h2>
                         </div>
                         <div className="pro-detail">
@@ -95,10 +130,10 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                {/* Project 3 */}
+                {/* Project 4 */}
                 <div className="project-row">
-                    <div className="project-col-1">
-                        <img className='project-img' src={project_3} alt='project'></img>
+                    <div className="project-col-1 order-right">
+                        <img className='project-img' src={project_4} alt='project'></img>
                     </div>
                     <div className="project-col-2">
                         <div className="pro-head">
@@ -130,10 +165,10 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                {/* Project 4 */}
+                {/* Project 5 */}
                 <div className="project-row">
-                    <div className="project-col-1 order-right">
-                        <img className='project-img' src={project_4} alt='project'></img>
+                    <div className="project-col-1 ">
+                        <img className='project-img' src={project_5} alt='project'></img>
                     </div>
                     <div className="project-col-2 order-left">
                         <div className="pro-head">
@@ -163,10 +198,10 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                 {/* Project 5 */}
+                 {/* Project 6 */}
                  <div className="project-row">
-                    <div className="project-col-1 ">
-                        <img className='project-img' src={project_5} alt='project'></img>
+                    <div className="project-col-1 order-right ">
+                        <img className='project-img' src={project_6} alt='project'></img>
                     </div>
                     <div className="project-col-2 ">
                         <div className="pro-head">
@@ -197,10 +232,10 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                {/* Project 6 */}
+                {/* Project 7 */}
                 <div className="project-row">
-                    <div className="project-col-1 order-right">
-                        <img className='project-img' src={project_6} alt='project'></img>
+                    <div className="project-col-1 ">
+                        <img className='project-img' src={project_7} alt='project'></img>
                     </div>
                     <div className="project-col-2 order-left">
                         <div className="pro-head">
