@@ -22,6 +22,8 @@
     flex-direction: row;
     margin: 0 auto;
     padding: 40px 0;
+    z-index: 99;
+    overflow: hidden;
 }
 .project-col-1{
     max-width: 60%;
